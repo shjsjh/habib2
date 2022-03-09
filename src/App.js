@@ -28,15 +28,6 @@ export default function App() {
         </Route>
       </Switch>
       <div>
-        <center>
-          GET CODE AND TUTORIAL AT :
-          <br />
-          <strong>
-            <a href="https://seegatesite.com/implement-login-page-and-protected-route-reactjs">
-              https://seegatesite.com/implement-login-page-and-protected-route-reactjs
-            </a>
-          </strong>
-        </center>
       </div>
     </Router>
   );
