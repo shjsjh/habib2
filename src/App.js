@@ -2,6 +2,7 @@ import React from "react";
 import "./styles.css";
 import Login from "./Login";
 import Dashboard from "./Dashboard";
+import Transfer from "./Transfer";
 import {
   BrowserRouter as Router,
   Switch,
@@ -20,6 +21,9 @@ export default function App() {
         <ProtectedRoute path="/dashboard">
           <Dashboard />
         </ProtectedRoute>
+        {/* <Route path="/transfer">
+          <Transfer />
+        </Route> */}
         <Route exact path="/">
           <Redirect exact from="/" to="dashboard" />
         </Route>

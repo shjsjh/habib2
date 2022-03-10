@@ -1,154 +1,204 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
-.dasshboard{
-  /* padding: 10px; */
-}
-.dashboard_header{
-  display: flex;
-  justify-content: space-between;
-}
-.main-account-balance{
-  border: 1px solid #43697E;
-  min-height: 370px;
-  /* margin-top: 10px; */
-  background-color: #43697E;
-  padding-top: 15px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-.account-details{
-  margin-top: 20px;
-}
-.account_main{
-  position: relative;
-  padding-top: 10px;
-  padding-bottom: 60px;
-  top: -70px;
-  background-color: #fff;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
-  border: 1px solid red;
+@media screen and (max-width: 767px){
 
-}
-.account-name-img{
-  margin-bottom: 20px;
-}
-.account-name{
-  font-size: 25px;
-  color: rgb(243, 240, 240);
-}
-.account-img{
-  width: 55px;
-  height: 55px;
-  border-radius: 50%;
-  background-image: url(./assets/img/avatar.jpg);
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
-.account-balance{
-  height: 60px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-bottom: 10px;
-  border-radius: 10px;
-  background-color: #2a5369;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.account-balance span{
-  font-size: 20px;
-  color: #fff;
-}
-.account-balance p{
-  /* font-size: 20px; */
-  color: rgb(202, 200, 200);
-}
-.account-activity{
-  min-height: 30px;
-  /* padding: 10px; */
-  /* margin-top: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start; */
-}
-.account-activity p{
-  font-size: 15px;
-  font-weight: 500;
-}
-.transaction{
-  /* margin-top: 20px; */
-  font-weight: 500;
-}
-.transaction_box{
-  border-bottom: 1px solid #43697E;
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-.transaction_box-top, .transaction_box-bottom{
-  display: flex;
-  justify-content: space-between;
-}
-.transaction_box-bottom{
-margin-top: 5px;
-}
-.transaction_box-bottom div{
-  display: flex;
-  flex-direction: column;
-
-}
-._desc{
-  color: #003755;
-  font-size: 12px;
-  font-family: 'Montserrat', sans-serif;
-}
-.account-footer{
-  min-height: 30px;
-  padding: 15px;
-  margin-top: 20px;
-  left: 0;
-  right: 0;
-  background-color: #43697E;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-}
-.account-footer div{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: #fff;
-  width: 60px;
-  min-height: 60px;
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #2A5369;
-}
-.account-footer div:hover{
-  background-color: #193f53;
-}
-.account-footer div svg{
-  fill: #fff;
-}
-.account-footer a:hover{
-  text-decoration: none;
-}
-.logout_btn{
-  background-color: #fff;
-  border: 1px solid #fff;
-  width: 40px;
-  height: 40px;
-  border-radius: 10px;
-  font-size: 17px;
-  cursor: pointer;
+  .dashboard_header{
+    display: flex;
+    justify-content: space-between;
+  }
+  .main-account-balance{
+    border: 1px solid #43697E;
+    min-height: 500px;
+    /* margin-top: 10px; */
+    background-color: #43697E;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .account-details{
+    margin-top: 20px;
+  }
+  .account_main{
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 60px;
+    top: -150px;
+    background-color: #fff;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    /* border: 1px solid red; */
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  
+  
+  }
+  .account-name-img{
+    margin-bottom: 20px;
+  }
+  .account-name{
+    font-size: 25px;
+    color: rgb(243, 240, 240);
+  }
+  .account-img{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-image: url(./assets/img/avatar.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  
+  }
+  .account-balance{
+    height: 60px;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #2a5369;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  
+  }
+  .account-balance span{
+    font-size: 20px;
+    color: #fff;
+  }
+  .account-balance p{
+    /* font-size: 20px; */
+    color: rgb(202, 200, 200);
+  }
+  .account-activity{
+    min-height: 30px;
+    /* padding: 10px; */
+    /* margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; */
+  }
+  .account-activity p{
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .transaction{
+    /* margin-top: 20px; */
+    font-weight: 500;
+  }
+  .transaction_box{
+    border-bottom: 1px solid #43697E;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .transaction_box-top, .transaction_box-bottom{
+    display: flex;
+    justify-content: space-between;
+  }
+  .transaction_box-bottom{
+  margin-top: 5px;
+  }
+  .transaction_box-bottom div{
+    display: flex;
+    flex-direction: column;
+  
+  }
+  ._desc{
+    color: #003755;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .account-footer{
+    min-height: 30px;
+    padding: 15px;
+    margin-top: 20px;
+    left: 0;
+    right: 0;
+    background-color: #43697E;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+  }
+  .account-footer div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    width: 70px;
+    min-height: 60px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2A5369;
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  
+  }
+  .account-footer div:hover{
+    background-color: #193f53;
+  }
+  .account-footer div svg{
+    fill: #fff;
+  }
+  .account-footer a:hover{
+    text-decoration: none;
+  }
+  .logout_btn{
+    background-color: #fff;
+    border: 1px solid #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 17px;
+    cursor: pointer;
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  
+  }
+  .modal_form{
+    margin-bottom: 20px;
+  }
+  .modal_form div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+  }
+  .modal_form div input{
+    max-width: 300px;
+    padding: 1rem;
+    border: 1px solid #2A5369;
+  }
+  .modal_form div label{
+    font-size: 1.2rem;
+    color: #2A5369;
+    display: block;
+  }
+  .modal_form div button{
+    max-width: 100px;
+    margin-top: 20px;
+    border: none ;
+      color: #fff;
+      background: #2A5369;
+      padding: 10px;
+      box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  
+  }
+  .modal_form div button:hover{
+    background-color: transparent;
+    border: 1px solid #2A5369;
+    color: #2A5369;
+  }
+  .dddd{
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
 }
