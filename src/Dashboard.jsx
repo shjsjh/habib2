@@ -40,10 +40,10 @@ class Dashboard extends Component {
       <div className="dasshboard">
         <div className="main-account-balance">
           <div className="dashboard_header">
-              {/* <img src={Logo} alt="logo" /> */}
-              <div className="account-img">
+              <img src={Logo} alt="logo" />
+              {/* <div className="account-img">
 
-              </div>
+              </div> */}
             <button className="logout_btn" onClick={this.signOut} href="#">
               <i class="fa fa-sign-out" aria-hidden="true"></i>
             </button>
@@ -51,7 +51,7 @@ class Dashboard extends Component {
           <div className="account-details">
             <div className="account-name-img">
               <div className="account-name">
-                Hi, Lauren Milligan
+                Hi, Nicole Leigh Farnam
               </div>
             </div>
             <div className="dddd">
@@ -60,7 +60,7 @@ class Dashboard extends Component {
             <div className="account-balance">
               <span>Checkings</span>
               <div className="account-balance-availability">
-              <span>$874,000</span>
+              <span> $694,000</span>
               <p>Available</p>
               </div>
               
@@ -68,7 +68,7 @@ class Dashboard extends Component {
             <div className="account-balance">
               <span>Savings</span>
               <div className="account-balance-availability">
-              <span>$237,900</span>
+              <span>$122,678</span>
               <p>Available</p>
               </div>
             </div>
@@ -81,7 +81,7 @@ class Dashboard extends Component {
           <div className="transaction">
             <div className="transaction_box">
               <div className="transaction_box-top">
-                <span className="_desc">MOB2/UTO/To Ivica Tasńer</span>
+                <span className="_desc">COINBASE</span>
                 <span>-$75,000.00</span>
               </div>
               <div className="transaction_box-bottom">
@@ -90,8 +90,7 @@ class Dashboard extends Component {
             </div>
             <div className="transaction_box">
               <div className="transaction_box-top">
-                <span className="_desc">Pending: 45574 PREAUTH 008829 CASH APP*BILL LONG*AD gosq.com
-                CA</span>
+                <span className="_desc">COINBASE</span>
                 <span>-$350.00</span>
               </div>
               <div className="transaction_box-bottom">
@@ -105,7 +104,7 @@ class Dashboard extends Component {
             </div>
             <div className="transaction_box">
               <div className="transaction_box-top">
-                <span className="_desc">31244 PREAUTH 008829 CASH APP*BILL LONG*AD gosq.com CA</span>
+                <span className="_desc">COINBASE</span>
                 <span>-$230.00</span>
               </div>
               <div className="transaction_box-bottom">
